@@ -2,7 +2,9 @@ const UUID = '12345678';
 let userID = UUID;
 let 快速订阅访问入口 = [UUID, 'auto'];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = [
+  'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt'
+];
 
 let addressesnotls = [];
 let addressesnotlsapi = [];
@@ -1464,5 +1466,6 @@ export default {
 		}
 	}
 };
+
 
 
