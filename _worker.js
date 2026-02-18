@@ -1,6 +1,6 @@
 const UUID = '12345678';
 let userID = UUID;
-let 快速订阅访问入口 = ['auto'];
+let 快速订阅访问入口 = [UUID, 'auto'];
 let addresses = [];
 let addressesapi = [];
 
@@ -1464,4 +1464,5 @@ export default {
 		}
 	}
 };
+
 
